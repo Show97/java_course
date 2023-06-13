@@ -10,9 +10,7 @@ public class Example6 {
         String firstName = in.nextLine();
         System.out.println("Введите Отчество: ");
         String secondName = in.nextLine();
-        System.out.println("Фамилия: " + lastName);
-        System.out.println("Имя: " + firstName);
-        System.out.println("Отчество: " + secondName);
+        System.out.println("Hello " + lastName + " " + firstName + " " + secondName);
         in.close();
     }
 }

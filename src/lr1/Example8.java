@@ -12,7 +12,7 @@ public class Example8 {
         String nameMonth = in.nextLine();
         System.out.println("Введите дату(номер дня в месяце): ");
         int dateNom = in.nextInt();
-        System.out.println("Сегодня: " + " " + dayWeek + " " + dateNom + " " + nameMonth);
+        System.out.println(dayWeek + " " + dateNom + " " + nameMonth);
         in.close();
     }
 
