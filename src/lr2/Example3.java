@@ -13,8 +13,7 @@ public class Example3 {
         int a = in.nextInt();
         int result = a % 4;
 
-        if (a > 10) {
-        } else {
+        if (a < 10) {
             System.out.println("К сожалению число меньше 10 =(, в следующий раз у тебя получиться!");
             return;
         }
