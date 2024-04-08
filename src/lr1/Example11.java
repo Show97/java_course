@@ -6,7 +6,7 @@ public class Example11 {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int dateNow = 2023;
+        int dateNow = 2024;
         System.out.println("Введите имя: ");
         String name = in.nextLine();
         System.out.println("Введите год своего рождения: ");
