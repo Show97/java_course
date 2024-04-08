@@ -11,25 +11,14 @@ public class Example2 {
 
         int a = in.nextInt();
 
-        int result1 = a % 5;
-        int result2 = a % 7;
+        boolean result1 = a % 5 == 2;
+        boolean result2 = a % 7 == 1;
 
-        System.out.println("Результат: " + result1);
-        System.out.println("Результат: " + result2);
-
-        if (result1 == 2) {
-            System.out.println("Введенное число при делении на 5 в остатке получает 2");
+        if (result1 && result2) {
+            System.out.println("Введенное число " + a + " удовлетворяет критериям.");
         } else {
-            System.out.println("Введенное число при делении на 5 в остатке не получает 2");
+            System.out.println("Введенное число " + a + " не удовлетворяет критериям.");
         }
-
-        if (result2 == 1) {
-            System.out.println("Введенное число при делении на 7 в остатке получает 1");
-        } else {
-            System.out.println("Введенное число при делении на 7 в остатке не получает 1");
-        }
-
-
     }
 
 }
